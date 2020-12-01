@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
+import firebase from "./firebase";
 
 import { fetchWeather } from './api/fetchWeather';
 import './App.css';
 
 const App = () => {
+    const messaging = firebase.messaging();
+    messaging.requestPermission().then(()=>{
+        return messaging.getToken()
+    }).then((token)=>{
+        console.log('token :',token)
+    })
     const [query, setQuery] = useState('');
     const [weather, setWeather] = useState({});
     
