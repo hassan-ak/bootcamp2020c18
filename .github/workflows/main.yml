@@ -5,9 +5,9 @@ name: Deploy BootCamp2020 Class18
 # Controls when the action will run.
 on:
   push:
-    branches: [ master ]
+    branches: [ forSurge ]
   pull_request:
-    branches: [ master ]
+    branches: [ forSurge ]
 
 # Define Jobs
 jobs:
