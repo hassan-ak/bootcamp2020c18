@@ -10,3 +10,16 @@ External Links
 
 Deployment
 * [Live Demo](https://bootcamp2020c18-604d0.web.app/)
+
+* * * 
+
+Practice Project
+* Bootcamp 2020 Project 7A1: Rebuild the Expense Tracker App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications
+
+External Links
+* [Publishing PWAs to Major App Stores: The Whys and Hows](https://www.simicart.com/blog/pwa-app-stores/)
+
+* * * 
+
+Practice Project
+* Bootcamp 2020 Project 7A2: Rebuild the Quiz App with React/TypeScript it should be a Progressive Web App (PWA) with Offline Capability and Push Notifications
